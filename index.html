@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Tic-Tac-Toe</h1>
+
+    <!-- Player Name Inputs -->
+    <div class="player-inputs">
+      <label>
+        O: <input type="text" id="player-o" placeholder="Enter Player O">
+      </label>
+      <label>
+        X: <input type="text" id="player-x" placeholder="Enter Player X">
+      </label>
+      <button id="set-names">Set Names</button>
+    </div>
+
+    <!-- Winner Message -->
+    <div class="msg-container hide">
+      <p id="msg">Winner</p>
+      <button id="new_btn">New Game</button>
+    </div>
+
+    <!-- Scoreboard -->
+    <div class="scoreboard">
+      <p id="player-o-name">O Wins: <span id="o-score">0</span></p>
+      <p id="player-x-name">X Wins: <span id="x-score">0</span></p>
+    </div>
+
+    <!-- Game Board -->
+    <div class="container">
+      <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <button id="reset-btn">Reset Game</button>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
