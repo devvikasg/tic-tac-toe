@@ -18,7 +18,7 @@ It includes player scoring, new game functionality, and reset options.
 ## 🛠️ Technologies Used
 - **HTML5** → Structure  
 - **CSS3** → Styling and layout  
-- **JavaScript (Vanilla JS)** → Game logic  
+- **JavaScript** → Game logic  
 
 ---
 
